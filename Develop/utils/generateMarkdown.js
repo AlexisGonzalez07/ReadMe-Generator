@@ -39,34 +39,32 @@ return `
 ${renderLicenseBadge(data.license)}
 
 ## Table of Contents
-*[Description](#Description)
-*[Installation](#Installation)
-*[Usage](#Usage)
-*[Testing](#Testing)
-*[Contribution](#Contribution)
-*[Questions](#Questions)
+1. [Description](#description)\n
+2. [Installation](#installation)\n
+3. [Usage](#usage)\n
+4. [Testing](#testing)\n
+5. [Contribution](#contribution)\n
+6. [Questions](#questions)\n
 
 
-## DESCRIPTION
+## Description <a name='description'></a>
 ${data.description}
 
-## Installation
+## Installation <a name='installation'></a>
 ${data.installation}
 
-## Usage
+## Usage <a name='usage'></a>
 ${data.usage}
 
-## Testing
+## Testing <a name='testing'></a>
 ${data.testing}
 
-## Contribution
+## Contribution <a name='contribution'></a>
 ${data.contribution}
 
-## Questions
-Feel free to email me at:
-${data.email}
-Visit my Github profile at:
-[Alex Gonzalez Github](www.github.com/${data.username})`
+## Questions <a name='questions'></a>
+Feel free to email me at: ${data.email}\n
+Visit my Github profile at: [Alex Gonzalez Github](www.github.com/${data.username})`
 };
 
 module.exports = generateMarkdown;
