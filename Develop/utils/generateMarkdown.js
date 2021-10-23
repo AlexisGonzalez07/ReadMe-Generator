@@ -64,7 +64,7 @@ ${data.contribution}
 
 ## Questions <a name='questions'></a>
 Feel free to email me at: ${data.email}\n
-Visit my Github profile at: [Alex Gonzalez Github](www.github.com/${data.username})`
+Visit my Github profile at: [Alex Gonzalez Github](https://www.github.com/${data.username})`
 };
 
 module.exports = generateMarkdown;
